@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-up {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.Header-logo {
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.Header-links {
+    font-size: 15px;
+    color: #F9FAF8;    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.head-down {
+    display: flex;
+    width: 1200px;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+width: 200px;
+    border-radius: 10px;
+}
+
+.left {
+    width: 700px;
+}
+
+p.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+p.secondary-text {
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 80px;
+    border: 2px solid #F9FAF8;
+}
+
+div.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.images-with-text {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-items: center;
+    padding: 100px;
+}
+
+.petite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.phrase {
+    background-color: #E5E7EB;
+}
+
+p.text-phrase {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four-box {
+    background-color: #3882F6;
+    margin: 40px;
+    color: #F9FAF8;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.all-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+p.main-phrase {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Copyright {
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p.main-autor {
+    color: #F9FAF8;
+}
